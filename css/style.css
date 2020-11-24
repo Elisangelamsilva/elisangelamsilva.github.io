@@ -18,12 +18,12 @@ h1, h2, strong {
 }
 
 a {
-  color: #f2c5f8;
+  color: rgb(60, 158, 161);
   text-decoration: none;
 } 
 
 a:hover {
-  color: #222;
+  color: rgb(99, 85, 148);
   background-color: azure;
 }
 
