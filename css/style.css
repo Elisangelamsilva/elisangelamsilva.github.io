@@ -8,7 +8,7 @@ body {
   margin: 0px;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  color: #f2c5f8;
+  color: azure;
   background-color: #282828;
 }
 
@@ -24,7 +24,7 @@ a {
 
 a:hover {
   color: #222;
-  background-color: #f2c5f8;
+  background-color: azure;
 }
 
 .container {
@@ -36,6 +36,7 @@ img.profile-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-top: 10%;
 }
 
 .about {
@@ -48,7 +49,7 @@ img.profile-img {
 }
 
 .social a {
-  color: #f2c5f8;
+  color: azure;
   text-decoration: none;
   background-color: #282828;
   margin: 10px 20px;
@@ -59,13 +60,27 @@ img.profile-img {
   text-decoration: underline;
 }
 
+/* skills */
+
+.skills {
+  margin-top: 10%;
+}
+
+.front {
+  color: azure;
+  float: left;
+}
+
 
 .portifolio {
   margin-top: 30%;
 }
 
 .portifolio-title {
-  margin-bottom: 10%;
+  padding: 5px;
+  width: 320px;
+  border: 2px solid azure;
+  margin-bottom: 40%;
 }
 
 /* Cards */
@@ -76,7 +91,7 @@ img.profile-img {
 
 .card {
   margin-bottom: 10px;
-  background-color: #f2c5f8;
+  background-color: azure;
 }
 
 .card-img-top {
@@ -91,6 +106,7 @@ img.profile-img {
   h2 {
     font-size: 1.1em;
   }
+  
 
   .container {
     padding: 15px;
