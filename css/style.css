@@ -80,10 +80,14 @@ img.profile-img {
   padding: 5px;
   width: 320px;
   border: 2px solid azure;
-  margin-bottom: 40%;
+  margin-bottom: 30%;
 }
 
 /* Cards */
+
+.cards {
+  margin-bottom: 10%;
+}
 
 .card-text, .card-title{
   color: black;
