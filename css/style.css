@@ -29,10 +29,9 @@ main {
 }
 
 .glass {
-  margin: 2rem;
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 55%;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   border-radius: 2rem;
   z-index: 2;
@@ -84,9 +83,9 @@ main {
 
 .portifolio {
   padding: 1.2rem;
-   /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;  */
+  justify-content: space-evenly;
 } 
 
 .card {
