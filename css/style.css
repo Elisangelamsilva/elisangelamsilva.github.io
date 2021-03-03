@@ -97,6 +97,7 @@ main {
   box-sizing: 6px 6px 20px rgba(122, 122, 122, 0.616);
 }
 
+/* Telefones em paisagem e abaixo */
 @media (max-width: 500px) {
   .glass {
     height: 70vh;
@@ -116,4 +117,49 @@ main {
     height: 70%;
     width: 60%;
   }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+  .glass {
+    height: 70vh;
+    width: 90%;
+  }
+  .dashboard {
+    margin: 0;
+    padding: 0;
+    font-size: 85%;
+  }
+  .card {
+    font-size: 85%;
+  }
+  .link img {
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    width: 60%;
+  }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .glass {
+    height: 70vh;
+    width: 90%;
+  }
+  .dashboard {
+    margin: 0;
+    padding: 0;
+    font-size: 95%;
+  }
+  .card {
+    font-size: 95%;
+  }
+  .link img {
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    width: 60%;
+  }
+}
 }
