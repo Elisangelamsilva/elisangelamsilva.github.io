@@ -31,7 +31,7 @@ main {
 .glass {
   background: white;
   min-height: 80vh;
-  width: 55%;
+  width: 60%;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   border-radius: 2rem;
   z-index: 2;
@@ -40,8 +40,8 @@ main {
 }
 
 .dashboard {
-  /* flex: 1; */
-  padding: 2rem;
+  flex: 1;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,7 @@ main {
 }
 
 .link {
-  padding: 1rem 3rem;
+  padding: 1rem 0rem;
 }
 
 .portifolio {
@@ -90,8 +90,30 @@ main {
 
 .card {
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.424), rgba(255, 255, 255, 0.445));
+  width: auto;
   border-radius: 1rem;
   margin: 0.9rem 0rem;
   padding: 0.9rem;
   box-sizing: 6px 6px 20px rgba(122, 122, 122, 0.616);
+}
+
+@media (max-width: 500px) {
+  .glass {
+    height: 70vh;
+    width: 90%;
+  }
+  .dashboard {
+    margin: 0;
+    padding: 0;
+    font-size: 70%;
+  }
+  .card {
+    font-size: 70%;
+  }
+  .link img {
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    width: 60%;
+  }
 }
