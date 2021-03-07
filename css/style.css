@@ -52,7 +52,7 @@ main {
 }
 
 .user {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .links {
@@ -70,7 +70,7 @@ main {
 .skills {
   color: #030303;
   font-weight: 500;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .skills h4 {
@@ -92,7 +92,7 @@ main {
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.424), rgba(255, 255, 255, 0.445));
   width: auto;
   border-radius: 1rem;
-  margin: 0.9rem 0rem;
+  margin: 0.7rem 0rem;
   padding: 0.9rem;
   box-sizing: 6px 6px 20px rgba(122, 122, 122, 0.616);
 }
@@ -106,16 +106,16 @@ main {
   .dashboard {
     flex: 1;
     margin: 0;
-    padding: 0;
+    padding: 0rem;
     font-size: 70%;
   }
   .card {
-    font-size: 70%;
+    font-size: 20%;
   }
   .link img {
     padding: 0;
     margin: 0;
-    height: 70%;
+    height: 60%;
     width: 60%;
   }
 }
@@ -130,21 +130,21 @@ main {
     flex: 1;
     margin: 0;
     padding: 0;
-    font-size: 85%;
+    font-size: 75%;
   }
   .card {
-    font-size: 85%;
+    font-size: 65%;
   }
   .link img {
     padding: 0;
     margin: 0;
-    height: 70%;
-    width: 60%;
+    height: 60%;
+    width: 50%;
   }
 }
 
 /* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1100px) {
   .glass {
     height: 70vh;
     width: 90%;
@@ -165,4 +165,7 @@ main {
     width: 60%;
   }
 }
+
+@media (min-width: 980px) and (max-width: 979px){
+
 }
