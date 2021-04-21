@@ -10,6 +10,11 @@ h2, p {
   opacity: 0.8;
 }
 
+i {
+  font-size: 2em;
+  color: #030303;
+}
+
 h3 {
   color: #426696;
   font-weight: 600;
