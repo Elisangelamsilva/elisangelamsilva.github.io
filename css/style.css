@@ -4,6 +4,10 @@
   box-sizing: 0;
 }
 
+a {
+  color: inherit;
+}
+
 h2, p {
   color: #030303;
   font-weight: 500;
@@ -106,7 +110,7 @@ main {
 @media (max-width: 500px) {
   .glass {
     height: 70vh;
-    width: 90%;
+    width: 95%;
   }
   .dashboard {
     flex: 1;
@@ -115,7 +119,7 @@ main {
     font-size: 70%;
   }
   .card {
-    font-size: 20%;
+    font-size: 10%;
   }
   .link img {
     padding: 0;
@@ -161,7 +165,7 @@ main {
     font-size: 95%;
   }
   .card {
-    font-size: 95%;
+    font-size: 75%;
   }
   .link img {
     padding: 0;
