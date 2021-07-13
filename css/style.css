@@ -34,7 +34,9 @@ main {
 }
 
 .user img {
-  border-radius: 3rem;
+  border-radius: 4rem;
+  height: 110px;
+  width: 110px;
 }
 
 .glass {
